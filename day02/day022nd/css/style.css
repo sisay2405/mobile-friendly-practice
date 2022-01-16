@@ -7,6 +7,7 @@ body {
 
 .geeks {
     padding: 150px;
+    margin-bottom: 60px;
     text-align: center;
 }
 h1 {
@@ -64,9 +65,28 @@ footer {
     text-align: center;
     color: #FFF;
     font-size: 12px;
+    /* width:50%; */
+    /* align-content: center; */
+    margin-right: 30px;
+
   }
   .align-right {
     text-align: right;
+  }
+  @media screen and (min-width: 480px) {
+    .pattern {
+      background: rgb(129, 65, 75);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .pattern {
+      background: rgb(185, 223, 15);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .pattern {
+       background: rgb(8, 8, 8); 
+    }
   }
   
 
